@@ -107,7 +107,7 @@ function drawHand(ctx, pos, length, width) {
     //define an end point
     ctx.lineTo(0, -length);
     //the stokestyle
-    ctx.strokeStyle = "#1b225a"
+    ctx.strokeStyle = "black"
     //do the drawing
     ctx.stroke();
     ctx.rotate(-pos);
